@@ -1,14 +1,14 @@
 {
   "version": "1",
   "name": "ANJING",
-  "homeUrl": "https://farcaster2.vercel.app/",
+  "homeUrl": "https://ichlas-delta.vercel.app/",
   "iconUrl": "YOUR_DOMAIN_URL/images/icon.png",
   "description": "Contoh deskripsi Mini App Anda. Ini akan ditampilkan di toko Mini App.",
   "primaryCategory": "games",
   "tags": ["snake", "miniapp", "farcaster"],
   "accountAssociation": {
-    "header": "eyJmaWQiOjI1NzgyMywidHlwZSI6ImF1dGgiLCJrZXkiOiIweGU0OUNkQUM1MjgwNGNmNTVGMUFCMzM2QkJGNkZlQ2Q0OWViMmQ2M0IifQ",
-    "payload": "eyJkb21haW4iOiJmYXJjYXN0ZXIyLnZlcmNlbC5hcHAifQ",
-    "signature": "n2fi6+tyzKkv7Ql3Z6TecQCOzWNlpgga93nuFd/dY/5IgXOZ+f6qScIRQY7JAghw0mqSHryWYddi+f1Pm+2UXxw="
+    "header": "eyJmaWQiOjI1NzgyMywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDM3MUY3QTBhRmRGNjc2MDc0NkQ4MjA2OEY2QzFEMTFBOThkNTI4ODQifQ",
+    "payload": "eyJkb21haW4iOiJpY2hsYXMtZGVsdGEudmVyY2VsLmFwcCJ9",
+    "signature": "3RSzZkgoKZmzWCnaLvNMP61vTLSf767WKsCCRpbdnfx2XM3oeQH1ZzcDsuA0POXEujzWCkvR9DGUBYUEukUdWxw="
   }
 }
