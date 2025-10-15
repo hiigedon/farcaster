@@ -1,9 +1,14 @@
 {
   "version": "1",
-  "name": "Farcaster Snake Game",
-  "homeUrl": "YOUR_DEPLOYMENT_URL",
-  "iconUrl": "YOUR_DEPLOYMENT_URL/images/icon.png",
-  "description": "Mainkan game ular klasik yang menyenangkan langsung di Farcaster!",
+  "name": "Farcaster Rosy Mini App",
+  "homeUrl": "https://farcaster-rosy.vercel.app/",
+  "iconUrl": "YOUR_DOMAIN_URL/images/icon.png",
+  "description": "Contoh deskripsi Mini App Anda. Ini akan ditampilkan di toko Mini App.",
   "primaryCategory": "games",
-  "tags": ["snake", "game", "classic", "arcade"]
+  "tags": ["snake", "miniapp", "farcaster"],
+  "accountAssociation": {
+    "header": "eyJmaWQiOjI1NzgyMywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDM3MUY3QTBhRmRGNjc2MDc0NkQ4MjA2OEY2QzFEMTFBOThkNTI4ODQifQ",
+    "payload": "eyJkb21haW4iOiJmYXJjYXN0ZXItcm9zeS52ZXJjZWwuYXBwIn0",
+    "signature": "t1xJjtqNzB3bxBXumSI3pJ0pRoXSZ7hIp4XkgRxjVTk2AmFFAB9LbLMpYFbtdeOZASvirWwf3UHLn/LvhJz5nxs="
+  }
 }
