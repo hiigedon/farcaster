@@ -1,14 +1,14 @@
 {
   "version": "1",
   "name": "Farcaster Rosy Mini App",
-  "homeUrl": "https://farcaster-rosy.vercel.app/",
+  "homeUrl": "https://farcaster-ni9s.vercel.app",
   "iconUrl": "YOUR_DOMAIN_URL/images/icon.png",
   "description": "Contoh deskripsi Mini App Anda. Ini akan ditampilkan di toko Mini App.",
   "primaryCategory": "games",
   "tags": ["snake", "miniapp", "farcaster"],
   "accountAssociation": {
     "header": "eyJmaWQiOjI1NzgyMywidHlwZSI6ImF1dGgiLCJrZXkiOiIweGU0OUNkQUM1MjgwNGNmNTVGMUFCMzM2QkJGNkZlQ2Q0OWViMmQ2M0IifQ",
-    "payload": "eyJkb21haW4iOiJmYXJjYXN0ZXItcm9zeS52ZXJjZWwuYXBwIn0",
-    "signature": "o806z4grh9mSu7UU2CEu1YdmwHB0qRi8HcLHB4xBcek2ZwKYPp6yY/IWhhf2a547NS7hkyt/hnn4UgcRAsuhDBw="
+    "payload": "eyJkb21haW4iOiJmYXJjYXN0ZXItbmk5cy52ZXJjZWwuYXBwIn0",
+    "signature": "jGhh2fvnLUjcbxMz60TdiCga/51wFnbFN2maOsK35C1h15hbnYmg01CHpzsgRSnXTyMM3ZM2APouMMNwYqx7zxw="
   }
 }
