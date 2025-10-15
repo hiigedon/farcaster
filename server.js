@@ -17,12 +17,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 // FRAME FARCASTER ENDPOINTS
 // =========================================================
 
-// 1. Endpoint Frame Utama (GET untuk rendering awal di feed)
+// Endpoint Frame Utama (GET untuk rendering awal)
 app.get('/frame', (req, res) => {
-    // Ganti dengan URL gambar Anda yang sebenarnya
     const frameImageUrl = `${HOST_URL}/images/start_screen.png`;
 
-    // HTML dengan metadata Frame
     const html = `
 <!DOCTYPE html>
 <html>
@@ -42,19 +40,17 @@ app.get('/frame', (req, res) => {
     <meta property="fc:frame:button:2" content="Cek High Score" />
 </head>
 <body>
-    </body>
+    <h1>Mini App URL is: ${HOST_URL}</h1>
+</body>
 </html>
     `;
     res.send(html);
 });
 
-// 2. Endpoint untuk menangani aksi Frame (POST dari tombol)
+// Endpoint untuk menangani aksi Frame (POST dari tombol)
 app.post('/api/action', (req, res) => {
-    // Di sini Anda bisa mengambil data dari req.body jika diperlukan,
-    // seperti user ID atau button index yang diklik
-    
     const highscoreImageUrl = `${HOST_URL}/images/highscore_screen.png`;
-    const latestScore = Math.floor(Math.random() * 100); // Contoh skor (ganti dengan DB asli)
+    const latestScore = Math.floor(Math.random() * 100); 
 
     const highscoreHtml = `
 <!DOCTYPE html>
