@@ -76,3 +76,20 @@ app.post('/api/action', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Server berjalan di ${HOST_URL}`);
 });
+
+// server.js (Tambahkan di bawah endpoint /api/action)
+
+// Endpoint untuk menerima skor dari game ular
+app.post('/api/save-score', (req, res) => {
+    const { score } = req.body;
+    
+    console.log(`Menerima skor baru: ${score}`);
+    
+    // TODO: Di SINI LAKUKAN PENYIMPANAN SKOR (misalnya ke database)
+    // Untuk contoh ini, kita hanya akan mencetak dan merespons.
+    
+    res.json({ 
+        message: 'Skor berhasil diproses', 
+        receivedScore: score 
+    });
+});
