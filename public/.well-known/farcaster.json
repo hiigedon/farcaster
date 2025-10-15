@@ -1,14 +1,14 @@
 {
   "version": "1",
   "name": "AVAYONA",
-  "homeUrl": "https://farcaster-ni9s.vercel.app",
+  "homeUrl": "https://farcaster1.vercel.app/",
   "iconUrl": "YOUR_DOMAIN_URL/images/icon.png",
   "description": "Contoh deskripsi Mini App Anda. Ini akan ditampilkan di toko Mini App.",
   "primaryCategory": "games",
   "tags": ["snake", "miniapp", "farcaster"],
   "accountAssociation": {
     "header": "eyJmaWQiOjI1NzgyMywidHlwZSI6ImF1dGgiLCJrZXkiOiIweGU0OUNkQUM1MjgwNGNmNTVGMUFCMzM2QkJGNkZlQ2Q0OWViMmQ2M0IifQ",
-    "payload": "eyJkb21haW4iOiJmYXJjYXN0ZXItbmk5cy52ZXJjZWwuYXBwIn0",
-    "signature": "jGhh2fvnLUjcbxMz60TdiCga/51wFnbFN2maOsK35C1h15hbnYmg01CHpzsgRSnXTyMM3ZM2APouMMNwYqx7zxw="
+    "payload": "eyJkb21haW4iOiJmYXJjYXN0ZXIxLnZlcmNlbC5hcHAifQ",
+    "signature": "AcoCutNIhKkVLCr3Wht3fZdV+96JpFJRUPrfMq9L5JpNnvap7RdE7rNS8GScLy7An5E3pc9GyNRfiFFFG9lYBBs="
   }
 }
