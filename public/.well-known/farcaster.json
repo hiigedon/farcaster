@@ -1,14 +1,14 @@
 {
   "version": "1",
-  "name": "lagi",
-  "homeUrl": "https://ichlas-delta.vercel.app/",
+  "name": "NOVITA",
+  "homeUrl": "https://novita-beta.vercel.app/",
   "iconUrl": "YOUR_DOMAIN_URL/images/icon.png",
   "description": "Contoh deskripsi Mini App Anda. Ini akan ditampilkan di toko Mini App.",
   "primaryCategory": "games",
   "tags": ["snake", "miniapp", "farcaster"],
   "accountAssociation": {
-    "header": "eyJmaWQiOjI1NzgyMywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDM3MUY3QTBhRmRGNjc2MDc0NkQ4MjA2OEY2QzFEMTFBOThkNTI4ODQifQ",
-    "payload": "eyJkb21haW4iOiJpY2hsYXMtZGVsdGEudmVyY2VsLmFwcCJ9",
-    "signature": "3RSzZkgoKZmzWCnaLvNMP61vTLSf767WKsCCRpbdnfx2XM3oeQH1ZzcDsuA0POXEujzWCkvR9DGUBYUEukUdWxw="
+    "header": "eyJmaWQiOjI1NzgyMywidHlwZSI6ImF1dGgiLCJrZXkiOiIweGU0OUNkQUM1MjgwNGNmNTVGMUFCMzM2QkJGNkZlQ2Q0OWViMmQ2M0IifQ",
+    "payload": "eyJkb21haW4iOiJub3ZpdGEtYmV0YS52ZXJjZWwuYXBwIn0",
+    "signature": "0ofeTID9loAlWFQ/e1/VGQlv7Vv30fi4WcWjc4L36Cx55J00tgvd0WhwwLRQ9KGb22HNrqgDGscOtU3nltRMBRw="
   }
 }
